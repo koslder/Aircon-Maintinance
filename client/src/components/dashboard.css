@@ -1,0 +1,54 @@
+.assigned-bar,
+.tasks-list {
+    max-width: 100%;
+    width: 100%;
+}
+
+.task-overview {
+    display: flex;
+    flex-direction: row;
+}
+
+.total-bar {
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.tasks-overview-card,
+.tasks-overview {
+    margin: 50px 0;
+
+}
+
+.tasks-container {
+    display: flex;
+
+    justify-content: space-between;
+
+    flex-wrap: wrap;
+
+}
+
+.task-card {
+    flex: 1;
+
+    margin: 10px;
+
+    padding: 20px;
+
+    border: 1px solid #ccc;
+
+    border-radius: 8px;
+
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+    background-color: #fff;
+
+    min-width: 150px;
+
+}
+
+h2 {
+    margin-bottom: 10px;
+    /* Space below headings */
+}
