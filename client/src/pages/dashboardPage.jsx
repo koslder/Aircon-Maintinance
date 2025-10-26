@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import './dsashboardPage.css';
+import './dashboardPage.css';
 import {
     DesktopOutlined,
     PieChartOutlined,
