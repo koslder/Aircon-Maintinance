@@ -11,6 +11,8 @@ const App = () => {
       <Routes>
         {/* Public Route */}
         <Route path="/login" element={<Login />} />
+        <Route path="/" element={<Navigate to="/login" replace />} />
+        <Route path="*" element={<div>404 - Page Not Found</div>} />
         <Route
           path="/dashboard"
           element={
