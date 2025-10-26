@@ -21,6 +21,7 @@ import Aircons from "../components/Aircons";
 const { Header, Content, Sider } = Layout;
 
 const DashboardPage = () => {
+    console.log("Rendering DashboardPage");
     const [collapsed, setCollapsed] = useState(false);
     const [selectedKey, setSelectedKey] = useState("1");
     const [isModalVisible, setIsModalVisible] = useState(false);
